@@ -2,8 +2,7 @@
 # Telegram Chats Parser
 ##############################################
 
-![dd](https://github.com/user-attachments/assets/c268c345-f6fa-484e-af9a-0a31feb1c739)
-
+![dd_DeWatermark](https://github.com/user-attachments/assets/d9becce2-a13c-49fb-9eef-9ef0b2cda357)
 
 Это проект на Python, который парсит информацию о чатах с сайта [Combot](https://combot.org/) и сохраняет результаты в базу данных SQLite.
 
