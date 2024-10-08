@@ -3,7 +3,7 @@ import time
 import urllib
 from urllib import request
 import json
-
+from colorama import Fore, Style
 import requests
 import urllib3
 from bs4 import BeautifulSoup
@@ -76,8 +76,10 @@ def parse():
                 # if pri.lower() == "on":
                 # print("Uniq name error")
 
-        print(f"Page num: {page_drop}       Parse page count: {page_count}        Nice: {nice}         Error: {error}")
-
+        print(f"{Fore.CYAN}Page num: {page_drop}{Style.RESET_ALL}       "
+              f"{Fore.GREEN}Parse page count: {page_count}{Style.RESET_ALL}        "
+              f"{Fore.YELLOW}Nice: {nice}{Style.RESET_ALL}         "
+              f"{Fore.RED}Error: {error}{Style.RESET_ALL}")
         time.sleep(0.26)
 
 
